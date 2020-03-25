@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <cms_block>
+      <title><![CDATA[Footer Links]]></title>
+      <identifier><![CDATA[footer_links]]></identifier>
+      <content><![CDATA[
+<ul>
+    <li><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>
+    <li><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>
+<li class="last privacy"><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Footer Links Company]]></title>
+      <identifier><![CDATA[footer_links_company]]></identifier>
+      <content><![CDATA[<div class="links">
+    <ul>
+        <li><a href="{{store url=""}}about-magento-demo-store/">About Us</a></li>
+        <li><a href="{{store url=""}}contacts/">Contact Us</a></li>
+        <li><a href="{{store url=""}}customer-service/">Customer Service</a></li>
+        <li><a href="{{store url=""}}privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+    </ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[block_map_contacts]]></title>
+      <identifier><![CDATA[block_map_contacts]]></identifier>
+      <content><![CDATA[<div class="map-iframe">
+	<iframe width="600" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8277911385558!2d-0.13108129999999998!3d51.51637529999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2d183f5ea3%3A0x8e1c5b00f1b16579!2zMTIgT3hmb3JkIFN0LCBTb2hvLCBMb25kb24gVzFELCBWxrDGoW5nIFF14buRYyBBbmg!5e0!3m2!1svi!2s!4v1434261501432"></iframe>
+</div>
+<div class="contact-info">
+	<div class="row">
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<div class="service-block ">
+				<div class="box text-center ">
+					<div class="service-icon buzz_effect pe-7s-phone"><span class="hidden">hidden</span></div>
+					<div class="service-title">PHONE</div>
+					<div class="service-desc">Phone 1. 88 3333 6789<br>Phone2. 88 668 2236</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<div class="service-block ">
+				<div class="box text-center ">
+					<div class="service-icon buzz_effect pe-7s-map-marker"><span class="hidden">hidden</span></div>
+					<div class="service-title">ADDRESS</div>
+					<div class="service-desc">No36. 262 Milacina Mrest Street<br>Paris France</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<div class="service-block ">
+				<div class="box text-center ">
+					<div class="service-icon buzz_effect pe-7s-mail"><span class="hidden">hidden</span></div>
+					<div class="service-title">E-MAIL</div>
+					<div class="service-desc">wpleebros@gmail.com<br>michael@leebros.us</div>
+				</div>
+			</div>
+		</div>							
+	</div>	
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[payment-logo]]></title>
+      <identifier><![CDATA[payment-logo]]></identifier>
+      <content><![CDATA[<div class="footer-payment-logo"><img alt="" src="{{media url="wysiwyg/alothemes/static/payment-logo.png"}}" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[testimonials]]></title>
+      <identifier><![CDATA[testimonial]]></identifier>
+      <content><![CDATA[<div class="section8  alo-testimonial block-testimonials">{{widget type="testimonial/widget_slide" template="magiccart/testimonial/slide.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Menu Right]]></title>
+      <identifier><![CDATA[block_menu_right]]></identifier>
+      <content><![CDATA[<div class="menu-images-right">
+<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/manu-banner.jpg"}}" alt="" />
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Menu Page]]></title>
+      <identifier><![CDATA[block_menu_page]]></identifier>
+      <content><![CDATA[<ul>
+        <li><a href="{{store direct_url="faq"}}"><span>FAQ</span></a></li>
+        <li><a href="{{store direct_url="blog"}}"><span>Blog</span></a></li>
+	<li><a href="{{store direct_url="about-us"}}"><span>About Us</span></a></li>
+	<li><a href="{{store direct_url="no-route"}}"><span>404 Not Found </span></a></li>
+	<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}"><span>Privacy Policy</span></a></li>
+	<li><a href="{{store direct_url="customer-service"}}"><span>Customer Service</span></a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block images left]]></title>
+      <identifier><![CDATA[left-image]]></identifier>
+      <content><![CDATA[<div class="left-module-slide">{{widget type="magicslider/widget_slide" identifier="left-module-01" template="magiccart/magicslider/magicslider.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Best Seller(Left Detail)]]></title>
+      <identifier><![CDATA[block_best]]></identifier>
+      <content><![CDATA[<div class="best-sidebar">{{widget type="magicproduct/widget_magicproduct" identifier="best-sale" template="magiccart/magicproduct/magicproduct_custom.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Parallax]]></title>
+      <identifier><![CDATA[parallax]]></identifier>
+      <content><![CDATA[<div class="home-bg">
+	<div class="bg-parallax1 bg-parallax " style="background-image: url({{media url="wysiwyg/alothemes/cms/bg-parallax1.jpg"}});">
+	    <div class="bg-overlay">
+			<div class="container">
+				<div class="box-text">
+					<div class="box-text-content">
+						<h3>designed<br>by <span class="primary-color">michael</span></h3>
+						<h1 class="bold">shoes</h1>
+						<h3>new collection</h3>
+						<a class="btn-read" href="#">show now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-parallax2 bg-parallax" style="background-image: url({{media url="wysiwyg/alothemes/cms/bg-parallax2.jpg"}});">
+	   <div class="bg-overlay">
+			<div class="container">
+				<div class="box-text">
+					<div class="box-text-content">
+						<h3>autumn & winter</h3>
+						<h1 class="bold">collection</h1>
+						<h3>sale up to <span class="primary-color">30%</span> off</h3>
+						<a class="btn-read" href="#">show now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-parallax3 bg-parallax" style="background-image: url({{media url="wysiwyg/alothemes/cms/bg-parallax3.jpg"}});">
+	    <div class="bg-overlay">
+			<div class="container">
+				<div class="box-text">
+					<div class="box-text-content">
+						<h3>autumn<br>winter</h3>
+						<h1 class="bold">2015</h1>
+						<h3>shoes collection</h3>
+						<a class="btn-read" href="#">show now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Slide Home 5]]></title>
+      <identifier><![CDATA[slide]]></identifier>
+      <content><![CDATA[<div class="homeslider">{{widget type="magicslider/widget_slide" identifier="home_1" template="magiccart/magicslider/magicslider.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block call us(Home 4,Home 5 )]]></title>
+      <identifier><![CDATA[call-us]]></identifier>
+      <content><![CDATA[<ul>
+<li class="call-us"><i class="pe-7s-call"><span class="hidden">hidden</span></i>+06 3333 6789</li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Features menu]]></title>
+      <identifier><![CDATA[block_features_menu]]></identifier>
+      <content><![CDATA[<div class="content-mega">
+	<div class="content-mega-custom">
+	    <div class="container-full">
+			<ul class="mage-column cat-mega" >
+				<li class="children level1">
+				   <a href="#"><span>Products</span></a>
+				   <ul class="level1">
+                        <li class="level2"><a href="simple-product.html"><span>Simple Product</span></a></li>
+						<li class="level2"><a href="grouped-product.html"><span>Grouped Product</span></a></li>
+						<li class="level2"><a href="configurable-product.html"><span>Configurable Product</span></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+  </blocks>
+</root>

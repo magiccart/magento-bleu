@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <cms_block>
+      <title><![CDATA[Footer Links]]></title>
+      <identifier><![CDATA[footer_links]]></identifier>
+      <content><![CDATA[
+<ul>
+    <li><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>
+    <li><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>
+<li class="last privacy"><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Footer Links Company]]></title>
+      <identifier><![CDATA[footer_links_company]]></identifier>
+      <content><![CDATA[<div class="links">
+    <ul>
+        <li><a href="{{store url=""}}about-magento-demo-store/">About Us</a></li>
+        <li><a href="{{store url=""}}contacts/">Contact Us</a></li>
+        <li><a href="{{store url=""}}customer-service/">Customer Service</a></li>
+        <li><a href="{{store url=""}}privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+    </ul>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[call-us and mail]]></title>
+      <identifier><![CDATA[call-us]]></identifier>
+      <content><![CDATA[<ul>
+<li class="call-us"><i class="pe-7s-call"><span class="hidden">hidden</span></i>+06 3333 6789</li>
+<li><a href="mailto:Contact@fashion.com" class="mail-top"><i class="pe-7s-mail"><span class="hidden">hidden</span></i>Contact@fashion.com</a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[block_map_contacts]]></title>
+      <identifier><![CDATA[block_map_contacts]]></identifier>
+      <content><![CDATA[<div class="map-iframe">
+	<iframe width="600" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8277911385558!2d-0.13108129999999998!3d51.51637529999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2d183f5ea3%3A0x8e1c5b00f1b16579!2zMTIgT3hmb3JkIFN0LCBTb2hvLCBMb25kb24gVzFELCBWxrDGoW5nIFF14buRYyBBbmg!5e0!3m2!1svi!2s!4v1434261501432"></iframe>
+</div>
+<div class="contact-info">
+	<div class="row">
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<div class="service-block ">
+				<div class="box text-center ">
+					<div class="service-icon buzz_effect pe-7s-phone"><span class="hidden">hidden</span></div>
+					<div class="service-title">PHONE</div>
+					<div class="service-desc">Phone 1. 88 3333 6789<br>Phone2. 88 668 2236</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<div class="service-block ">
+				<div class="box text-center ">
+					<div class="service-icon buzz_effect pe-7s-map-marker"><span class="hidden">hidden</span></div>
+					<div class="service-title">ADDRESS</div>
+					<div class="service-desc">No36. 262 Milacina Mrest Street<br>Paris France</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<div class="service-block ">
+				<div class="box text-center ">
+					<div class="service-icon buzz_effect pe-7s-mail"><span class="hidden">hidden</span></div>
+					<div class="service-title">E-MAIL</div>
+					<div class="service-desc">wpleebros@gmail.com<br>michael@leebros.us</div>
+				</div>
+			</div>
+		</div>							
+	</div>	
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[block_footer_bottom]]></title>
+      <identifier><![CDATA[block_footer_bottom]]></identifier>
+      <content><![CDATA[<div class="row">
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+		<div class="collapsible mobile-collapsible">
+			<div class="block1 block-content-statick">
+				<div class="footer-logo">
+					<a class="store1" href=""><img src="{{media url="wysiwyg/alothemes/static/footer-logo.png"}}" alt="" /></a>
+                                        <a class="store4" href=""><img src="{{media url="wysiwyg/alothemes/static/footer-logo4.png"}}" alt="" /></a>
+				</div>
+				<ul>
+					<li class="feature-icon first">
+						<p class="no-margin"><i class="pe-7s-map-marker">&nbsp;</i>262 Milacina Mrest Street<br/> Paris France</p>
+					</li>
+					<li class="feature-icon">
+						<p class="call-us"><i class="pe-7s-call">&nbsp;</i>+06 3333 6789</p>
+					</li>
+					<li class="feature-icon">
+						<a class="mail-top" href="mailto:Contact@fashion.com"><i class="pe-7s-mail">&nbsp;</i>Contact@fashion.com</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 footer-center">
+		<div class="row">
+			<div class="social-footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<ul class="list-inline">
+                                        <li><a class="social-link vimeo-square" href="#"><i class="fa fa-vimeo-square"><span class="hidden">vimeo-square</span></i></a></li>
+                                         <li><a class="social-link tumblr" href="#"><i class="fa fa-tumblr"><span class="hidden">tumblr</span></i></a></li>
+					<li><a class="social-link twitter" href="#"><i class="fa fa-twitter"><span class="hidden">twitter</span></i></a></li>
+                                        <li><a class="social-link pinterest" href="#"><i class="fa fa-pinterest"><span class="hidden">pinterest</span></i></a></li>
+					<li><a class="social-link facebook" href="#"><i class="fa fa-facebook"><span class="hidden">facebook</span></i></a></li>
+				</ul>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="collapsible mobile-collapsible">
+					<div class="block-content block-content-statick">
+						<ul class="bullet">
+							<li><a href="#">Security</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Text Messaging</a></li>
+							<li><a href="#">Legal</a></li>
+							<li><a href="#">Supply chain</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="collapsible mobile-collapsible">
+					<div class="block-content block-content-statick">
+						<ul class="bullet">
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Gift Cards</a></li>
+							<li><a href="#">Order Status</a></li>
+							<li><a href="#">Free Shipping</a></li>
+							<li><a href="#">Returns &amp; Exchanges</a></li>
+							<li><a href="#">International</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="collapsible mobile-collapsible">
+					<div class="block-content block-content-statick">
+						<ul class="bullet">
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Jobs</a></li>
+							<li><a href="#">Affiliates</a></li>
+							<li><a href="#">Meet The Maker</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+		<div class="collapsible mobile-collapsible">
+			<div class="block-newletter">
+				<h3 class="block-title heading">newsletter!</h3>
+				{{block type="newsletter/subscribe" template="newsletter/subscribe.phtml"}}
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[payment-logo]]></title>
+      <identifier><![CDATA[payment-logo]]></identifier>
+      <content><![CDATA[<div class="footer-payment-logo"><img alt="" src="{{media url="wysiwyg/alothemes/static/payment-logo.png"}}" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Slide Home 1]]></title>
+      <identifier><![CDATA[slide]]></identifier>
+      <content><![CDATA[<div class="homeslider">{{widget type="magicslider/widget_slide" identifier="home_1" template="magiccart/magicslider/magicslider.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Menu Right]]></title>
+      <identifier><![CDATA[block_menu_right]]></identifier>
+      <content><![CDATA[<div class="menu-images-right">
+<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/manu-banner.jpg"}}" alt="" />
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Service]]></title>
+      <identifier><![CDATA[block_service]]></identifier>
+      <content><![CDATA[<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+	<div class="service-block ">
+        <div class="box text-center ">
+            <div class="service-icon buzz_effect pe-7s-car"><span class="hidden">hidden</span></div>
+            <div class="service-title">FREE SHIPPING WORLDWIDE</div>
+            <div class="service-desc">Free shipping worldwide</div>
+        </div>
+    </div>
+</div>
+
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+	<div class="service-block ">
+        <div class="box text-center ">
+            <div class="service-icon buzz_effect pe-7s-headphones"><span class="hidden">hidden</span></div>
+            <div class="service-title">24/7 CUSTOMER SERVICE</div>
+            <div class="service-desc">Service Support 24/7</div>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+	<div class="service-block ">
+        <div class="box text-center ">
+            <div class="service-icon rotate_effect pe-7s-refresh-2"><span class="hidden">hidden</span></div>
+            <div class="service-title">MONEY BACK GUARANTEE !</div>
+            <div class="service-desc">100% Money Back - 30 Days</div>
+        </div>
+    </div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Menu Page]]></title>
+      <identifier><![CDATA[block_menu_page]]></identifier>
+      <content><![CDATA[<ul>
+        <li><a href="{{store direct_url="faq"}}"><span>FAQ</span></a></li>
+        <li><a href="{{store direct_url="blog"}}"><span>Blog</span></a></li>
+	<li><a href="{{store direct_url="about-us"}}"><span>About Us</span></a></li>
+	<li><a href="{{store direct_url="no-route"}}"><span>404 Not Found </span></a></li>
+	<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}"><span>Privacy Policy</span></a></li>
+	<li><a href="{{store direct_url="customer-service"}}"><span>Customer Service</span></a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block images left]]></title>
+      <identifier><![CDATA[left-image]]></identifier>
+      <content><![CDATA[<div class="left-module-slide">{{widget type="magicslider/widget_slide" identifier="left-module-01" template="magiccart/magicslider/magicslider.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Best Seller(Left Detail)]]></title>
+      <identifier><![CDATA[block_best]]></identifier>
+      <content><![CDATA[<div class="best-sidebar">{{widget type="magicproduct/widget_magicproduct" identifier="best-sale" template="magiccart/magicproduct/magicproduct_custom.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+    <cms_block>
+      <title><![CDATA[Block Features menu]]></title>
+      <identifier><![CDATA[block_features_menu]]></identifier>
+      <content><![CDATA[<div class="content-mega">
+	<div class="content-mega-custom">
+	    <div class="container-full">
+			<ul class="mage-column cat-mega" >
+				<li class="children level1">
+				   <a href="#"><span>Products</span></a>
+				   <ul class="level1">
+                        <li class="level2"><a href="simple-product.html"><span>Simple Product</span></a></li>
+						<li class="level2"><a href="grouped-product.html"><span>Grouped Product</span></a></li>
+						<li class="level2"><a href="configurable-product.html"><span>Configurable Product</span></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </cms_block>
+  </blocks>
+</root>
